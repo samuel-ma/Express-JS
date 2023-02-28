@@ -1,0 +1,71 @@
+
+
+:root{
+    --bg: #0F172A;
+    --white: #fafafa;
+    --card: #1E293B;
+    --nav: #334155;
+}
+
+body{
+    margin: 0;
+    padding: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: var(--bg);
+    color: var(--white);
+    font-family: "Inter";
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    background-color: var(--nav);
+    padding: 10px;
+    font-size: smaller;
+    border: 1px solid rgba(219, 213, 213, 0.411);
+    margin: 20px;
+}
+
+.navlinks{
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    color: white;
+    text-decoration: none;
+    border-right: 1px solid rgba(219, 213, 213, 0.411);
+    transition: ease-in 1s;
+}
+
+.navlinks2{
+    transition: ease-in 1s;
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    color: white;
+    text-decoration: none;
+}
+
+.navlinks2:hover,
+.navlinks:hover{
+    text-decoration: underline;
+}
+
+.active{
+    color: blue;
+}
+
+.hero{
+    height: 500px;
+    width: 1200px;
+    object-fit: cover;
+}
+
+#date{
+    font-size: smaller;
+    text-align: center;
+    text-decoration: underline;
+}

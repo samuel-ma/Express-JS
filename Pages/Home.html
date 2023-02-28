@@ -1,0 +1,33 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/Styles/home.css">
+    <title>Main Page</title>
+</head>
+<body>
+    
+    <nav>
+        <a href="#" class="navlinks active">Home</a>
+        <a href="./Services.html" class="navlinks">Services</a>
+        <a href="./Contact.html" class="navlinks2">Contact</a>
+    </nav>
+
+    <section>
+        <!-- <img class="hero" src="https://w.wallhaven.cc/full/we/wallhaven-we5y2r.png" alt="hero"> -->
+        <img class="hero" src="https://w.wallhaven.cc/full/5g/wallhaven-5gyrx5.png" alt="hero">
+    </section>
+
+    <p id="date">Date</p>
+
+    <script>
+        const date = Date().toLocaleUpperCase();
+        const myDate = document.getElementById("date")
+        myDate.innerHTML = "We are available today:  " + date
+    </script>
+</body>
+</html>
